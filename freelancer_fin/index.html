@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentation site</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Gabriel Olaechea <span>mi primera pagina web</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre Mi</a>
+            <a href="#">Habilidades</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
+    
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Sobre mi <span> (info breve)</span></h2> 
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 0 1 -2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>Arequipa, Peru</p>
+            </div>
+            <a class="boton" href="#">Contactar</a>
+            <p>Curso el primer semestre de Cs, me gusta jugar futbol, montar a caballo y salir con los panas</p>
+            <p>Chelsea y Melgar hasta la muerte</p>
+        
+        </div>
+    </section>
+    
+    <main class="contenedor sombra">
+        <h2>Mis Habilidades</h2>
+
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Html</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                        <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
+                      </svg>
+                </div>
+                <p> Puedo desarrollar documentos con html con buena jerarquia de los textos, buena estructura para paginas webs simples y sobrias . </p>
+            </section>
+        
+            <section class="servicio">
+                <h3>Css</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-css3" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                        <path d="M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
+                      </svg>
+                </div>
+                <p> Estoy aprendiendo Css y se puede decir que tengo la capacidad de hacer un buen diseno Css, buena distribucion, todo esto de paginas webs simples. </p>
+            </section>
+
+            <section class="servicio">
+                <h3>Python</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-python" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3" />
+                        <path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3" />
+                        <path d="M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4" />
+                        <path d="M11 6l0 .01" />
+                        <path d="M13 18l0 .01" />
+                      </svg>
+                </div>
+                <p> Estoy haciendo python en la u y lo domino a un nivel intermedio, puedo hacer funciones, programacion orientada a objetos y he usado varias librerias. </p>
+            </section>
+        </div> <!--.servicios-->
+    
+        <section>
+            <h2>Contacto</h2>
+
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactame(formulario fake)</legend>
+
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre">
+                        </div>
+
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu Email">
+                        </div>
+                
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div> <!-- .contenedor-campos -->
+
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <p>Gracias por la visita xd</p>
+    </footer>
+
+
+
+</body>
+</html>
